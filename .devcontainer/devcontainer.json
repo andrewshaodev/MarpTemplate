@@ -2,5 +2,8 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "extensions": [
     "marp-team.marp-vscode"
+  ],
+  "runArgs": [
+    "npm install -g @marp-team/marp-cli"
   ]
 }
