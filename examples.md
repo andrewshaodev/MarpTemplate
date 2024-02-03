@@ -5,9 +5,10 @@ theme: gaia
 
 # Using Marp
 
-* Create a slide deck all in on .md file
+* Create a slide deck all in one .md file
 * Compile as html or pdf
-* Download html locally and open with a Browser or Host for free with Github Pages, for Presentation
+* Download html locally and open with a browser or host for free with Github Pages, etc for presenting
+* Relatively lightweight and easy to use
 
 ---
 
@@ -31,16 +32,25 @@ $\mathcal{0}(n\log{n})$
 
 # <span style="color: blue;">Choose an Image for the Background</span>
 
+<span style="color: blue;">In case you want a "template" to use besides the two default ones offered</span>
 
 ---
 
-# Two Columns
+# Two Columns (or more)
+- Image on one column and text on the other is relatively easy
+- Two text columns is much harder
+
 
 ![bg left](images/rubberduck.jpg)
 
 ---
 
 # Emoji Support :rocket:
+
+List of Emojis supported at:
+
+https://gist.github.com/rxaviers/7360908
+
 
 ---
 
