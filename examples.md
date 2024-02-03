@@ -3,6 +3,14 @@ marp: true
 theme: gaia
 ---
 
+# Using Marp
+
+* Create a slide deck all in on .md file
+* Compile as html or pdf
+* Download html locally and open with a Browser or Host for free with Github Pages, for Presentation
+
+---
+
 # Some Examples:
 
 Code:
@@ -21,7 +29,8 @@ $\mathcal{0}(n\log{n})$
 
 ![bg hue-rotate:90deg saturate](background/background.jpg)
 
-# Choose a Background Image
+# <span style="color: blue;">Choose an Image for the Background</span>
+
 
 ---
 
@@ -35,8 +44,10 @@ $\mathcal{0}(n\log{n})$
 
 ---
 
-# Embedding With iframe
+# Embedding
 
-Generally, this is not recommended due to script injection with the Marp CLI, you will have to pass the argument --html
+Generally, this is not recommended due to script injection.
+
+With the Marp CLI, you will have to pass the argument --html
 
 <iframe width="568" height="322" src="https://www.youtube.com/embed/EzQ-p41wNEE" title="Never use PowerPoint again" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
